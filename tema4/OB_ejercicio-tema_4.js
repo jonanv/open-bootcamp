@@ -1,4 +1,3 @@
-"use strict";
 var numeroIf = 9;
 if (numeroIf > 0) {
     console.log('Positivo');
