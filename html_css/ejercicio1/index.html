@@ -4,24 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ejercicio de Introducción a HTML en OpenBootcamp</title>
+  <title>Ejercicio 02 - Formularios en HTML</title>
 </head>
 <body>
-  <!--
-    Este es mi primer comentario de dos líneas
-    Aprendiendo a documentar mi código con OpenBootcamp
-  -->
-  
-  <ul>
-    <li>
-      <a href="https://www.youtube.com/watch?v=MasnjMlCMiY">@s4vitar reacciona a Una pirata informática califica 12 escenas de piratería en películas</a>
-    </li>
-    <li>
-      <a href="https://www.youtube.com/watch?v=o1ScvhSax9Y">Mi ruta de aprendizaje para ser programador Frontend 2023</a>
-    </li>
-    <li>
-      <a href="https://www.youtube.com/watch?v=Gy3nOLFIQRA">⚠️¿POR QUÉ va a haber una GRAN CRISIS económica en 2023 y cómo prepararte para ella?⚠️</a>
-    </li>
-  </ul>
+  <form action="/">
+    <div>
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre">
+    </div>
+    <div>
+      <label for="edad">Edad</label>
+      <input type="text" name="edad" id="edad">
+    </div>
+    <div>
+      <label for="frase-favorita">Frase favorita</label>
+      <textarea type="text" name="frase-favorita" id="frase-favorita"></textarea>
+    </div>
+    <div>
+      <button type="reset">Reset</button>
+      <button type="submit">Envío</button>
+    </div>
+  </form>
 </body>
 </html>
